@@ -6,7 +6,7 @@ A full-stack social media platform built with **React**, **Java Spring Boot**, a
 
 ## 📦 Tech Stack
 
-- **Frontend**: React, Axios, Tailwind CSS (optional)
+- **Frontend**: React, Axios, Tailwind CSS
 - **Backend**: Java, Spring Boot, JPA (Hibernate)
 - **Database**: PostgreSQL
 
