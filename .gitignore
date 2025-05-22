@@ -1,33 +1,19 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# --- FRONTEND (React) ---
+/frontend/node_modules/
+/frontend/build/
+/frontend/.env
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# --- BACKEND (Java Spring Boot) ---
+/backend/target/
+/backend/.idea/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+*.log
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# --- General ---
 *.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+.DS_Store
+.env
 .vscode/
+.idea/
