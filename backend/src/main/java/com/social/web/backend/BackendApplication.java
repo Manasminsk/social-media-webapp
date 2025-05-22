@@ -6,7 +6,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {
-    "com.social"         // existing package
+    "com.social" ,  
+	 "com.social.repositories"      // existing package
 })
 public class BackendApplication {
 
