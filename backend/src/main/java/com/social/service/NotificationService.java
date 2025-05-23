@@ -2,7 +2,6 @@
 package com.social.service;
 
 import com.social.web.backend.model.Notification;
-import com.social.web.backend.model.User;
 import com.social.repositories.NotificationRepository;
 import com.social.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
