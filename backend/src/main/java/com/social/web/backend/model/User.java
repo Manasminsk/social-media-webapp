@@ -1,4 +1,3 @@
-
 package com.social.web.backend.model;
 
 import jakarta.persistence.*;
@@ -18,7 +17,12 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(unique = true, nullable = false)
     private String username;
+
+    // New field for the real name:
+    @Column(name = "full_name", nullable = false)
+    private String fullName = "";
 
     // Users that this user follows
     @ManyToMany
